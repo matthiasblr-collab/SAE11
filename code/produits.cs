@@ -10,6 +10,7 @@ class prog
     static void Main()
     {
         // Ici programme pour les différents produits disponible
+        //déclarations 
         
     }
 }
