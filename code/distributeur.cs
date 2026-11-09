@@ -15,7 +15,7 @@ class Programm
     {
         //ici c'est la class pour le fonctionnement du distributeur 
         
-        //déclarations
+        //déclarations 
         Distributeur monDistributeur;
 
 
