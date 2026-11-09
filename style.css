@@ -22,3 +22,15 @@ li{
     color: white;
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.actif{
+    text-decoration: underline;
+}
