@@ -1,0 +1,24 @@
+main{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 180px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
