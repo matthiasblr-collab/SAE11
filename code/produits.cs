@@ -1,16 +1,7 @@
 using System;
 struct Produit
 {
-    public float prix;
-    public string reference;
-    public string nom;
-}
-class prog 
-{
-    static void Main()
-    {
-        // Ici programme pour les différents produits disponible
-        //déclarations 
-           
-    }
+    public float prix;// en euros
+    public string reference;// PM6000
+    public string nom; //sandwich 
 }

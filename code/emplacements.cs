@@ -6,10 +6,3 @@ struct Emplacment
     public int stock; 
     public int capacite;
 }
-class program
-{
-    static void Main()
-    {
-           
-    }
-}
