@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+#portefeuille {        // # pour le relier a l'id
+    width: 200px;
+    position: fixed;  // positionnement par rapport au navigateur 
+    right: -100px;   // - pour enlever 100px du porte feuille
+    top: 40%;
+    cursor: pointer;
+}
