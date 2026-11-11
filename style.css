@@ -1,3 +1,7 @@
+html {
+    font-size: 16px; /* mettre en place la rem */
+}
+
 main{
     text-align: center;
 }
@@ -7,13 +11,50 @@ footer{
     height: 180px;
 }
 
-nav{
+h3{
+    color: black;
+    font-style: oblique;
+}
+
+/* pour le menu du header */
+header a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+}
+
+header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-ul{
+header img{
+    height: 25rem;
+    width: 120rem;
+}
+
+header a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* tout ce qui est entre le header et le footer */
+section {
+    scroll-margin-top: 100px; /*en lien avec le anchor link à voir si on le garde */
+}
+
+/* pour le menu du footer */
+
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul{
     display: flex;
     flex-direction: column;
 }
@@ -22,12 +63,13 @@ li{
     color: white;
     text-decoration: none;
 }
-a{
+
+footer a{
     text-decoration: none;
     color: white;
 }
 
-a:hover{
+footer a:hover{
     text-decoration: underline;
 }
 
