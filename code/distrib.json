@@ -1,1 +1,43 @@
-//fichier .json   
+ 
+{   "id": "", 
+        "nomOrganisation": "", 
+        "localisation": "", 
+        "actif": false, 
+        "modePaiement": 0, 
+    
+        "configuration": { 
+        "nombreLignes": 0, 
+        "nombreColonnes": 0, 
+        "temperatureBoissons": 0, 
+        "temperaturePlats": 0, 
+        }, 
+    
+    "produits": [ 
+        { 
+        "reference": "", 
+        "nom": "", 
+        "description": "", 
+        "categorie": "", 
+        "prix": 0, 
+        "allergenes": [] 
+        }
+    ],
+
+    "emplacements":[
+        {
+            "code": "", 
+        "referenceProduit": null, 
+        "stock": 0, 
+        "capacite": 0 
+        }
+    ]
+
+    "stockPieces"[
+    {
+        "valeur": 0, 
+        "quantite": 0
+    }
+
+    ]
+
+}
