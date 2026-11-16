@@ -37,7 +37,7 @@ class Program
         // | Choix du Produit |
         // --------------------
 
-        ChoixProduit();// affiche messaeg 
+       
         code=Console.ReadLine();// lit la saisi 
         
         for(int i=0; i<mesEmplacements.Length-1;i++) //parcour l'emplacements et choisis le produit selon le code 
@@ -55,7 +55,6 @@ class Program
        // | Mode paiment |
        // ----------------
 
-       ModePaiment(); // affiche message 
        modePaiment=Console.ReadLine();
        if(modePaiment == cb )
         {
