@@ -6,6 +6,6 @@ struct Distributeur
   public string nomOrganisation;
 
   public Produit [] mesProduits;
-  public Emplacement[] lesEmplacements;
+  
 
 }
