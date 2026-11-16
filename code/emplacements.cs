@@ -5,6 +5,6 @@ struct Emplacment
     public string code; //ex "A1"
     public int stock; 
 
-    public public Emplacement[] lesEmplacements;
+   public Produit [] mesProduits;
     
 }
