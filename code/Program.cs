@@ -51,12 +51,6 @@ class Program
         }
 
 
-        // --------
-        // | Prix |
-        // --------
-
-       
-
        // ----------------
        // | Mode paiment |
        // ----------------
@@ -76,24 +70,5 @@ class Program
         
     }
 
-    static void ChoixProduit ()
-    {
-        Console.WriteLine("--------------------------");
-        Console.WriteLine("|   Que voulez-vous? :)  | ");
-        Console.WriteLine("--------------------------");
-    }
-
-    static void AchatFait()
-    {
-        Console.WriteLine("---------------------------");
-        Console.WriteLine("| Merci de votre achat :) |");
-        Console.WriteLine("---------------------------");
-    }
-    static void ModePaiment()
-    {
-        Console.WriteLine("-----------------------------");
-        Console.WriteLine("| Par carte ou en liquide ? |");
-        Console.WriteLine("-----------------------------");
-
-    }
+    
 }
